@@ -1,21 +1,21 @@
 <!--
   ========================================================================
-  🌸 ARUN SHARMA (@Arun-Sharma-GOAT) - ANIME / LO-FI DEV GITHUB PROFILE 🌸
+  🌸 ADI SHARMA (@adisharma9548) - ANIME / LO-FI DEV GITHUB PROFILE 🌸
   ========================================================================
 -->
 
 <div align="center">
 
   <!-- Header Banner -->
-  <a href="https://github.com/Arun-Sharma-GOAT">
+  <a href="https://github.com/adisharma9548">
     <img src="./assets/banner.jpg" alt="Anime Lo-Fi Dev Banner" width="100%" style="border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
   </a>
 
   <br/><br/>
 
   <!-- Dynamic Typing Title -->
-  <a href="https://github.com/Arun-Sharma-GOAT">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=BD93F9&center=true&vCenter=true&random=false&width=650&height=50&lines=%E2%9C%A8+Kon'nichiwa%2C+World!+I'm+Arun+Sharma+%E2%9C%A8;%F0%9F%92%BB+Full-Stack+Developer+%26+Software+Craftsman;%F0%9F%8C%B8+Crafting+Aesthetic+%26+High-Performance+Web+Apps;%E2%98%95+Fueled+by+Matcha+Latte+%26+Lo-Fi+Beats+%F0%9F%8E%A7;%F0%9F%9A%80+Turning+Imagination+into+Clean%2C+Scalable+Code" alt="Typing SVG" />
+  <a href="https://github.com/adisharma9548">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=BD93F9&center=true&vCenter=true&random=false&width=650&height=50&lines=%E2%9C%A8+Kon'nichiwa%2C+World!+I'm+Adi+Sharma+%E2%9C%A8;%F0%9F%92%BB+Full-Stack+Developer+%26+Software+Craftsman;%F0%9F%8C%B8+Crafting+Aesthetic+%26+High-Performance+Web+Apps;%E2%98%95+Fueled+by+Matcha+Latte+%26+Lo-Fi+Beats+%F0%9F%8E%A7;%F0%9F%9A%80+Turning+Imagination+into+Clean%2C+Scalable+Code" alt="Typing SVG" />
   </a>
 
   <br/>
@@ -24,15 +24,15 @@
   <p align="center">
     <img src="https://img.shields.io/badge/STATUS-OPEN%20FOR%20COLLABORATION-ff79c6?style=for-the-badge&logo=codeforces&logoColor=white" alt="Status" />
     <img src="https://img.shields.io/badge/EXPERIENCE-FULL%20STACK%20%26%20UI%2FUX-8be9fd?style=for-the-badge&logo=visualstudiocode&logoColor=black" alt="Experience" />
-    <img src="https://komarev.com/ghpvc/?username=Arun-Sharma-GOAT&color=bd93f9&style=for-the-badge&label=PORTAL+VISITORS" alt="Visitor Count" />
+    <img src="https://komarev.com/ghpvc/?username=adisharma9548&color=bd93f9&style=for-the-badge&label=PORTAL+VISITORS" alt="Visitor Count" />
   </p>
 
   <!-- Quick Social Pill Links -->
   <p align="center">
-    <a href="https://github.com/Arun-Sharma-GOAT" target="_blank">
+    <a href="https://github.com/adisharma9548" target="_blank">
       <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
     </a>
-    <a href="mailto:arunmanojkumarsharma@gmail.com" target="_blank">
+    <a href="mailto:adisharma9548@gmail.com" target="_blank">
       <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
     <a href="https://linkedin.com" target="_blank">
@@ -57,8 +57,8 @@
 
 ```yaml
 coder:
-  name: Arun Sharma
-  alias: Arun-Sharma-GOAT
+  name: Adi Sharma
+  alias: adisharma9548
   role: Full-Stack Engineer & Creative Developer
   vibe: "Anime enthusiast, lo-fi listener, terminal dweller"
   loves: ["Clean Code", "Glassmorphic UIs", "Matcha Latte", "Cyber-aesthetic Systems"]
@@ -78,9 +78,9 @@ coder:
 <!-- Animated Snake eating contribution graph (Generated via GitHub Action) -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Arun-Sharma-GOAT/Arun-Sharma-GOAT/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Arun-Sharma-GOAT/Arun-Sharma-GOAT/output/github-contribution-grid-snake.svg">
-    <img alt="Contribution Snake Animation" src="https://raw.githubusercontent.com/Arun-Sharma-GOAT/Arun-Sharma-GOAT/output/github-contribution-grid-snake-dark.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/adisharma9548/adisharma9548/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/adisharma9548/adisharma9548/output/github-contribution-grid-snake.svg">
+    <img alt="Contribution Snake Animation" src="https://raw.githubusercontent.com/adisharma9548/adisharma9548/output/github-contribution-grid-snake-dark.svg" width="100%" />
   </picture>
 </div>
 
@@ -152,15 +152,15 @@ coder:
   <table border="0">
     <tr>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=Arun-Sharma-GOAT&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=bd93f9&icon_color=ff79c6&text_color=e2e8f0" alt="Arun's GitHub Stats" width="410" />
+        <img src="https://github-readme-stats.vercel.app/api?username=adisharma9548&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=bd93f9&icon_color=ff79c6&text_color=e2e8f0" alt="Adi's GitHub Stats" width="410" />
       </td>
       <td>
-        <img src="https://streak-stats.demolab.com?user=Arun-Sharma-GOAT&theme=tokyonight&hide_border=true&background=0d1117&ring=ff79c6&fire=ff79c6&currStreakLabel=ff79c6&sideLabels=e2e8f0&dates=8be9fd" alt="GitHub Streak" width="410" />
+        <img src="https://streak-stats.demolab.com?user=adisharma9548&theme=tokyonight&hide_border=true&background=0d1117&ring=ff79c6&fire=ff79c6&currStreakLabel=ff79c6&sideLabels=e2e8f0&dates=8be9fd" alt="GitHub Streak" width="410" />
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arun-Sharma-GOAT&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=bd93f9&text_color=e2e8f0" alt="Top Languages" width="380" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adisharma9548&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=bd93f9&text_color=e2e8f0" alt="Top Languages" width="380" />
       </td>
     </tr>
   </table>
@@ -168,12 +168,12 @@ coder:
   <br/>
 
   <!-- Interactive Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Arun-Sharma-GOAT&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=ff79c6&line=bd93f9&point=8be9fd" alt="Activity Graph" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=adisharma9548&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=ff79c6&line=bd93f9&point=8be9fd" alt="Activity Graph" width="100%" />
 
   <br/><br/>
 
   <!-- Trophies & Milestones -->
-  <img src="https://github-profile-trophy.vercel.app/?username=Arun-Sharma-GOAT&theme=radical&no-frame=true&no-bg=true&margin_w=6&column=7" alt="GitHub Trophies" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=adisharma9548&theme=radical&no-frame=true&no-bg=true&margin_w=6&column=7" alt="GitHub Trophies" width="100%" />
 
 </div>
 
@@ -194,8 +194,8 @@ coder:
         <img src="https://img.shields.io/badge/Tailwind-38B2AC?logo=tailwind-css&logoColor=white" />
       </p>
       <p align="center">
-        <a href="https://github.com/Arun-Sharma-GOAT"><b>Code Repository »</b></a> • 
-        <a href="https://Arun-Sharma-GOAT.github.io"><b>Live Demo »</b></a>
+        <a href="https://github.com/adisharma9548"><b>Code Repository »</b></a> • 
+        <a href="https://adisharma9548.github.io"><b>Live Demo »</b></a>
       </p>
     </td>
     <td width="50%">
@@ -209,8 +209,8 @@ coder:
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" />
       </p>
       <p align="center">
-        <a href="https://github.com/Arun-Sharma-GOAT"><b>Code Repository »</b></a> • 
-        <a href="https://Arun-Sharma-GOAT.github.io"><b>Live Website »</b></a>
+        <a href="https://github.com/adisharma9548"><b>Code Repository »</b></a> • 
+        <a href="https://adisharma9548.github.io"><b>Live Website »</b></a>
       </p>
     </td>
   </tr>
@@ -235,7 +235,7 @@ coder:
   </p>
 
   <p>
-    Crafted with 💜 and matcha by <a href="https://github.com/Arun-Sharma-GOAT"><b>Arun Sharma</b></a>
+    Crafted with 💜 and matcha by <a href="https://github.com/adisharma9548"><b>Adi Sharma</b></a>
   </p>
 
 </div>

@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * 🌸 ARUN SHARMA (@Arun-Sharma-GOAT) - ANIME DEV LOUNGE CORE JAVASCRIPT
+ * 🌸 ADI SHARMA (@adisharma9548) - ANIME DEV LOUNGE CORE JAVASCRIPT
  * Features:
  * 1. Procedural Lo-Fi Ambient Audio Synthesizer (Web Audio API)
  * 2. Interactive Sakura Petals & Cosmic Starfield Canvas Engine
@@ -417,7 +417,7 @@ document.addEventListener('DOMContentLoaded', () => {
    * 5. LIVE GITHUB TELEMETRY REPOS FETCHER
    * -------------------------------------------------------------------------- */
   const reposContainer = document.getElementById('repos-container');
-  const githubUser = 'Arun-Sharma-GOAT';
+  const githubUser = 'adisharma9548';
 
   // Fallback repositories in case of GitHub rate limiting or offline use
   const fallbackRepos = [
@@ -467,7 +467,7 @@ document.addEventListener('DOMContentLoaded', () => {
       html_url: `https://github.com/${githubUser}`
     },
     {
-      name: "Arun-Sharma-GOAT",
+      name: "adisharma9548",
       description: "Special GitHub Profile repository featuring Tokyo Night stats, animated contribution snake, and lo-fi aesthetics.",
       language: "Markdown",
       langColor: "#BD93F9",
@@ -514,7 +514,7 @@ document.addEventListener('DOMContentLoaded', () => {
     repos.slice(0, 6).forEach((repo) => {
       const lang = repo.language || "TypeScript";
       const color = repo.langColor || langColors[lang] || "#BD93F9";
-      const desc = repo.description || "An aesthetic open-source project by Arun Sharma.";
+      const desc = repo.description || "An aesthetic open-source project by Adi Sharma.";
 
       const card = document.createElement('div');
       card.className = 'repo-card glass-card';
@@ -553,7 +553,7 @@ document.addEventListener('DOMContentLoaded', () => {
     help: () => `
 <div style="color: var(--accent-cyan);">Available commands:</div>
   <span style="color: var(--accent-pink);">neofetch</span>    : Display system & developer telemetry
-  <span style="color: var(--accent-pink);">about</span>       : Who is Arun Sharma?
+  <span style="color: var(--accent-pink);">about</span>       : Who is Adi Sharma?
   <span style="color: var(--accent-pink);">skills</span>      : Inspect technical arsenal
   <span style="color: var(--accent-pink);">projects</span>    : Browse featured deployments
   <span style="color: var(--accent-pink);">audio</span>       : Toggle Lo-Fi ambient synthesizer
@@ -565,8 +565,8 @@ document.addEventListener('DOMContentLoaded', () => {
     `,
     neofetch: () => `
 <pre style="color: var(--accent-pink); margin: 0; font-size: 0.8rem;">
-       /\\_/\\          <span style="color: var(--accent-purple); font-weight: bold;">arun@anime-lounge</span>
-      ( o.o )         -----------------
+       /\\_/\\          <span style="color: var(--accent-purple); font-weight: bold;">adi@anime-lounge</span>
+      ( o.o )         ----------------
        &gt; ^ &lt;          <b>OS:</b> Anime Dev Studio v2026.1 (x86_64)
       /|   |\\         <b>Host:</b> Tokyo Cyber Station
      (_|   |_)        <b>Kernel:</b> 6.1.0-matcha-lts
@@ -576,14 +576,14 @@ document.addEventListener('DOMContentLoaded', () => {
                       <b>Editor:</b> VS Code (Tokyo Night Theme)
                       <b>Terminal:</b> Hyper / Alacritty
                       <b>Fuel:</b> Matcha Latte & Lo-Fi Beats
-                      <b>GitHub:</b> @Arun-Sharma-GOAT
+                      <b>GitHub:</b> @adisharma9548
 </pre>
     `,
     about: () => `
-<span style="color: var(--accent-green); font-weight: bold;">[Arun Sharma]</span>
+<span style="color: var(--accent-green); font-weight: bold;">[Adi Sharma]</span>
 Full-stack software architect & creative technologist.
 Passionate about bulletproof backends, distributed systems, and modern aesthetic frontend experiences.
-GitHub: <a href="https://github.com/Arun-Sharma-GOAT" target="_blank" style="color: var(--accent-cyan); text-decoration: underline;">@Arun-Sharma-GOAT</a>
+GitHub: <a href="https://github.com/adisharma9548" target="_blank" style="color: var(--accent-cyan); text-decoration: underline;">@adisharma9548</a>
     `,
     skills: () => `
 <span style="color: var(--accent-yellow);">Frontend:</span> React, Next.js, TypeScript, Tailwind CSS, Modern CSS3
@@ -621,9 +621,9 @@ GitHub: <a href="https://github.com/Arun-Sharma-GOAT" target="_blank" style="col
       return "<span style='color: #50fa7b;'>Wake up, Neo... The Matrix has you.</span>";
     },
     contact: () => `
-📧 Email: <a href="mailto:arunmanojkumarsharma@gmail.com" style="color: var(--accent-cyan);">arunmanojkumarsharma@gmail.com</a>
-💬 Discord: ArunSharma#0001
-🐙 GitHub: <a href="https://github.com/Arun-Sharma-GOAT" target="_blank" style="color: var(--accent-cyan);">@Arun-Sharma-GOAT</a>
+📧 Email: <a href="mailto:adisharma9548@gmail.com" style="color: var(--accent-cyan);">adisharma9548@gmail.com</a>
+💬 Discord: AdiSharma#0001
+🐙 GitHub: <a href="https://github.com/adisharma9548" target="_blank" style="color: var(--accent-cyan);">@adisharma9548</a>
     `,
     clear: () => {
       if (termOutput) termOutput.innerHTML = '';
@@ -644,7 +644,7 @@ GitHub: <a href="https://github.com/Arun-Sharma-GOAT" target="_blank" style="col
       // Create command echo
       const entry = document.createElement('div');
       entry.className = 'terminal-output-entry';
-      entry.innerHTML = `<div class="term-cmd-echo"><span style="color: var(--accent-green);">arun@dev:~$</span> ${escapeHTML(rawCmd)}</div>`;
+      entry.innerHTML = `<div class="term-cmd-echo"><span style="color: var(--accent-green);">adi@dev:~$</span> ${escapeHTML(rawCmd)}</div>`;
 
       if (cmd === 'clear') {
         terminalCommands.clear();
@@ -701,7 +701,7 @@ GitHub: <a href="https://github.com/Arun-Sharma-GOAT" target="_blank" style="col
     const nextTheme = themes[nextIdx];
 
     document.documentElement.setAttribute('data-theme', nextTheme);
-    localStorage.setItem('arun-theme', nextTheme);
+    localStorage.setItem('adi-theme', nextTheme);
 
     // Update meta color-scheme
     const meta = document.querySelector('meta[name="color-scheme"]');
@@ -762,7 +762,7 @@ GitHub: <a href="https://github.com/Arun-Sharma-GOAT" target="_blank" style="col
       const subject = document.getElementById('contact-subject').value;
       const message = document.getElementById('contact-message').value;
 
-      const mailtoLink = `mailto:arunmanojkumarsharma@gmail.com?subject=${encodeURIComponent(subject + " (from " + name + ")")}&body=${encodeURIComponent(message + "\n\nFrom: " + name + " <" + email + ">")}`;
+      const mailtoLink = `mailto:adisharma9548@gmail.com?subject=${encodeURIComponent(subject + " (from " + name + ")")}&body=${encodeURIComponent(message + "\n\nFrom: " + name + " <" + email + ">")}`;
       window.location.href = mailtoLink;
 
       showToast("🌸 Thank you! Opening your email client...");
