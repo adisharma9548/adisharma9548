@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * 🌸 ADI SHARMA (@adisharma9548) - ANIME DEV LOUNGE CORE JAVASCRIPT
+ * 🌸 ADITYA SHARMA (@adisharma9548) - ANIME DEV LOUNGE CORE JAVASCRIPT
  * Features:
  * 1. Procedural Lo-Fi Ambient Audio Synthesizer (Web Audio API)
  * 2. Interactive Sakura Petals & Cosmic Starfield Canvas Engine
@@ -349,7 +349,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const typingElement = document.getElementById('dynamic-typing-text');
   const roles = [
     "Full-Stack Software Craftsman",
-    "Creative Technologist & UI/UX Geek",
+    "Creative Technologist & UI/UX Craftsman",
+    "Competitive Programmer & LeetCode Solver",
     "Distributed Systems & Cloud Architect",
     "Anime Devotee & Lo-Fi Lounge Resident",
     "Open-Source Contributor & Builder"
@@ -514,7 +515,7 @@ document.addEventListener('DOMContentLoaded', () => {
     repos.slice(0, 6).forEach((repo) => {
       const lang = repo.language || "TypeScript";
       const color = repo.langColor || langColors[lang] || "#BD93F9";
-      const desc = repo.description || "An aesthetic open-source project by Adi Sharma.";
+      const desc = repo.description || "An aesthetic open-source project by Aditya Sharma.";
 
       const card = document.createElement('div');
       card.className = 'repo-card glass-card';
@@ -553,22 +554,22 @@ document.addEventListener('DOMContentLoaded', () => {
     help: () => `
 <div style="color: var(--accent-cyan);">Available commands:</div>
   <span style="color: var(--accent-pink);">neofetch</span>    : Display system & developer telemetry
-  <span style="color: var(--accent-pink);">about</span>       : Who is Adi Sharma?
+  <span style="color: var(--accent-pink);">about</span>       : Who is Aditya Sharma?
   <span style="color: var(--accent-pink);">skills</span>      : Inspect technical arsenal
   <span style="color: var(--accent-pink);">projects</span>    : Browse featured deployments
   <span style="color: var(--accent-pink);">audio</span>       : Toggle Lo-Fi ambient synthesizer
   <span style="color: var(--accent-pink);">theme</span>       : Switch visual anime themes
   <span style="color: var(--accent-pink);">quote</span>       : Print inspirational anime / dev wisdom
   <span style="color: var(--accent-pink);">matrix</span>      : Trigger the green matrix digital rain
-  <span style="color: var(--accent-pink);">contact</span>     : Display contact channels
+  <span style="color: var(--accent-pink);">contact</span>     : Display verified contact channels
   <span style="color: var(--accent-pink);">clear</span>       : Wipe terminal screen
     `,
     neofetch: () => `
 <pre style="color: var(--accent-pink); margin: 0; font-size: 0.8rem;">
-       /\\_/\\          <span style="color: var(--accent-purple); font-weight: bold;">adi@anime-lounge</span>
-      ( o.o )         ----------------
+       /\\_/\\          <span style="color: var(--accent-purple); font-weight: bold;">aditya@anime-lounge</span>
+      ( o.o )         -------------------
        &gt; ^ &lt;          <b>OS:</b> Anime Dev Studio v2026.1 (x86_64)
-      /|   |\\         <b>Host:</b> Tokyo Cyber Station
+      /|   |\\         <b>Host:</b> Aditya Cyber Station
      (_|   |_)        <b>Kernel:</b> 6.1.0-matcha-lts
                       <b>Uptime:</b> 9,999 hrs (Continuous Coding)
                       <b>Packages:</b> 1,337 (npm, pip, cargo)
@@ -577,13 +578,16 @@ document.addEventListener('DOMContentLoaded', () => {
                       <b>Terminal:</b> Hyper / Alacritty
                       <b>Fuel:</b> Matcha Latte & Lo-Fi Beats
                       <b>GitHub:</b> @adisharma9548
+                      <b>LeetCode:</b> theAdityaCoder
 </pre>
     `,
     about: () => `
-<span style="color: var(--accent-green); font-weight: bold;">[Adi Sharma]</span>
-Full-stack software architect & creative technologist.
+<span style="color: var(--accent-green); font-weight: bold;">[Aditya Sharma]</span>
+Full-stack software architect, algorithmic problem solver & creative technologist.
 Passionate about bulletproof backends, distributed systems, and modern aesthetic frontend experiences.
 GitHub: <a href="https://github.com/adisharma9548" target="_blank" style="color: var(--accent-cyan); text-decoration: underline;">@adisharma9548</a>
+LeetCode: <a href="https://leetcode.com/u/theAdityaCoder/" target="_blank" style="color: var(--accent-yellow); text-decoration: underline;">theAdityaCoder</a>
+LinkedIn: <a href="https://www.linkedin.com/in/aditya-sharma-479647298" target="_blank" style="color: var(--accent-cyan); text-decoration: underline;">Aditya Sharma</a>
     `,
     skills: () => `
 <span style="color: var(--accent-yellow);">Frontend:</span> React, Next.js, TypeScript, Tailwind CSS, Modern CSS3
@@ -622,8 +626,11 @@ GitHub: <a href="https://github.com/adisharma9548" target="_blank" style="color:
     },
     contact: () => `
 📧 Email: <a href="mailto:adisharma9548@gmail.com" style="color: var(--accent-cyan);">adisharma9548@gmail.com</a>
-💬 Discord: AdiSharma#0001
 🐙 GitHub: <a href="https://github.com/adisharma9548" target="_blank" style="color: var(--accent-cyan);">@adisharma9548</a>
+💼 LinkedIn: <a href="https://www.linkedin.com/in/aditya-sharma-479647298" target="_blank" style="color: var(--accent-cyan);">aditya-sharma-479647298</a>
+⚡ LeetCode: <a href="https://leetcode.com/u/theAdityaCoder/" target="_blank" style="color: var(--accent-yellow);">theAdityaCoder</a>
+💬 Discord: <a href="https://discordapp.com/users/1111480590118703175" target="_blank" style="color: var(--accent-cyan);">1111480590118703175</a>
+🐦 X / Twitter: <a href="https://x.com/AdityaS78238004" target="_blank" style="color: var(--accent-cyan);">@AdityaS78238004</a>
     `,
     clear: () => {
       if (termOutput) termOutput.innerHTML = '';
@@ -644,7 +651,7 @@ GitHub: <a href="https://github.com/adisharma9548" target="_blank" style="color:
       // Create command echo
       const entry = document.createElement('div');
       entry.className = 'terminal-output-entry';
-      entry.innerHTML = `<div class="term-cmd-echo"><span style="color: var(--accent-green);">adi@dev:~$</span> ${escapeHTML(rawCmd)}</div>`;
+      entry.innerHTML = `<div class="term-cmd-echo"><span style="color: var(--accent-green);">aditya@dev:~$</span> ${escapeHTML(rawCmd)}</div>`;
 
       if (cmd === 'clear') {
         terminalCommands.clear();
@@ -701,7 +708,7 @@ GitHub: <a href="https://github.com/adisharma9548" target="_blank" style="color:
     const nextTheme = themes[nextIdx];
 
     document.documentElement.setAttribute('data-theme', nextTheme);
-    localStorage.setItem('adi-theme', nextTheme);
+    localStorage.setItem('aditya-theme', nextTheme);
 
     // Update meta color-scheme
     const meta = document.querySelector('meta[name="color-scheme"]');
