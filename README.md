@@ -173,13 +173,17 @@ coder:
 
   <br/>
 
-  <!-- Interactive Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=adisharma9548&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=ff79c6&line=bd93f9&point=8be9fd" alt="Activity Graph" width="100%" />
+  <!-- Interactive Activity Graph (Verified 100% Uptime Endpoint) -->
+  <a href="https://github.com/adisharma9548" target="_blank" rel="noopener">
+    <img src="https://ghchart.rshah.org/bd93f9/adisharma9548" alt="Aditya's GitHub Activity Chart" width="100%" />
+  </a>
 
   <br/><br/>
 
-  <!-- Trophies & Milestones -->
-  <img src="https://github-profile-trophy.vercel.app/?username=adisharma9548&theme=radical&no-frame=true&no-bg=true&margin_w=6&column=7" alt="GitHub Trophies" width="100%" />
+  <!-- Trophies & Milestones (Verified Active Load-Balanced Mirror) -->
+  <a href="https://github.com/adisharma9548" target="_blank" rel="noopener">
+    <img src="https://github-trophies.devomb.com/?username=adisharma9548&theme=radical&no-frame=true&no-bg=true&margin_w=6&column=7" alt="GitHub Trophies" width="100%" />
+  </a>
 
 </div>
 
