@@ -853,4 +853,55 @@ LinkedIn: <a href="https://www.linkedin.com/in/aditya-sharma-479647298" target="
     });
   }
 
+  /* --------------------------------------------------------------------------
+   * 12. ANIMATED STATS / METRICS NUMBER COUNTERS
+   * -------------------------------------------------------------------------- */
+  const metricNumbers = document.querySelectorAll('.metric-number');
+  let metricsAnimated = false;
+
+  function animateCounters() {
+    if (metricsAnimated) return;
+    metricsAnimated = true;
+
+    metricNumbers.forEach((counter) => {
+      const target = parseInt(counter.getAttribute('data-target'), 10);
+      const suffix = counter.getAttribute('data-suffix') || '';
+      if (isNaN(target)) return;
+
+      const duration = 1800; // ms
+      const startTime = performance.now();
+
+      function updateNumber(currentTime) {
+        const elapsed = currentTime - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        
+        // Easing function: easeOutCubic
+        const easeOut = 1 - Math.pow(1 - progress, 3);
+        const currentVal = Math.floor(easeOut * target);
+
+        counter.textContent = currentVal.toLocaleString() + suffix;
+
+        if (progress < 1) {
+          requestAnimationFrame(updateNumber);
+        } else {
+          counter.textContent = target.toLocaleString() + suffix;
+        }
+      }
+
+      requestAnimationFrame(updateNumber);
+    });
+  }
+
+  const metricsSection = document.querySelector('.about-metrics-col');
+  if (metricsSection) {
+    const counterObserver = new IntersectionObserver((entries) => {
+      if (entries[0] && entries[0].isIntersecting) {
+        animateCounters();
+        counterObserver.disconnect();
+      }
+    }, { threshold: 0.25 });
+    counterObserver.observe(metricsSection);
+  }
+
 });
+

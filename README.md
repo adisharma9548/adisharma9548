@@ -24,7 +24,7 @@
   <p align="center">
     <img src="https://img.shields.io/badge/STATUS-OPEN%20FOR%20COLLABORATION-ff79c6?style=for-the-badge&logo=codeforces&logoColor=white" alt="Status" />
     <img src="https://img.shields.io/badge/EXPERIENCE-FULL%20STACK%20%26%20UI%2FUX-8be9fd?style=for-the-badge&logo=visualstudiocode&logoColor=black" alt="Experience" />
-    <img src="https://komarev.com/ghpvc/?username=adisharma9548&color=bd93f9&style=for-the-badge&label=PORTAL+VISITORS" alt="Visitor Count" />
+    <a href="https://hits.sh/github.com/adisharma9548/"><img src="https://hits.sh/github.com/adisharma9548.svg?style=for-the-badge&label=PORTAL+VISITORS&color=bd93f9" alt="Visitor Count" /></a>
   </p>
 
   <!-- Quick Social Pill Links -->
